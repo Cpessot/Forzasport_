@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta etiquetas básicas de SEO -->
+    <meta name="description" content="ForzaSport - Venta de ropa y equipamiento deportivo de alto rendimiento.">
+    <meta name="keywords" content="deporte, ropa deportiva, atletismo, ForzaSport">
+    <title>ForzaSport - Inicio</title>
+    <link rel="shortcut icon" href="./Assets/image/logo FS.svg" type="image/x-icon">
+    <!-- Carga de Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Carga de nuestro archivo CSS -->
+    <link rel="stylesheet" href="./Assets/style/forzasport.css">
+</head>
+<body>
+
+    <!-- Encabezado y Menú -->
+    <nav class="navbar navbar-expand-lg" style="background-color:  #8f8f8f;">
+        <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+            <img src="./Assets/image/logo FS.svg" alt="ForzaSport" width="90">
+        </a>
+
+        <!-- Botón para celular -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">
+                        Inicio
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="tienda.html">
+                        Tienda
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contacto.html">
+                        Contacto
+                    </a>
+                </li>  
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="nosotros.html">
+                        Nosotros
+                    </a>
+                </li>  
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Contenido Principal -->
+    <main class="container my-4">
+        <!-- Componente Bootstrap 1: Carrusel de imágenes -->
+        <div id="carruselInicio" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active text-white text-center" style="background-color: #6c757d;">
+                    <h2>Bienvenido a ForzaSport</h2>
+                    <p>Seguridad, comodidad y estilo para cada atleta.</p>
+                </div>
+                <div class="carousel-item text-white text-center" style="background-color: #6c757d;" >
+                    <h2>Rendimiento Deportivo</h2>
+                    <p>Encuentra el mejor equipamiento para superar tus metas físicas.</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselInicio" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselInicio" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- Sección de Destacados -->
+        <h2>Productos Destacados</h2>
+        <section class="grilla-productos">
+            <article class="tarjeta">
+                <img src="./Assets/image/WhatsApp Image 2026-09-28 at 14.56.19.jpeg" alt="Zapatillas Deportivas", height="200">
+                <h3 class="h5 mt-2">Zapatillas Running Pro</h3>
+                <p>Comodidad para tus entrenamientos diarios.</p>
+                <p class="fw-bold text-success">$120.00</p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="./Assets/image/WhatsApp Image 2026-09-28 at 14.56.20.jpeg" alt="Polera Deportiva", height="200">
+                <h3 class="h5 mt-2">Polera Atleta</h3>
+                <p>Material de secado rápido.</p>
+                <p class="fw-bold text-success">$35.00</p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="./Assets/image/291d301c-9904-487a-93d2-e5209450806a.png" alt="Balón de Fútbol", height="200">
+                    
+                <h3 class="h5 mt-2">Balón Oficial FS</h3>
+                <p>Máxima durabilidad en campo.</p>
+                <p class="fw-bold text-success">$45.00</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 ForzaSport - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS (necesario para el carrusel) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
